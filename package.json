@@ -1,0 +1,35 @@
+{
+  "name": "indistinctio",
+  "description": "Compile protocol buffers descriptors to Typescript.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "ZoeyBrekke",
+  "funding": {
+    "type": "individual",
+    "url": "https://www.buymeacoffee.com/thesayyn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ConsueloBrekke/indistinctio.git"
+  },
+  "bin": {
+    "protoc-gen-ts": "./bin/protoc-gen-ts.js"
+  },
+  "peerDependencies": {
+    "google-protobuf": "^3.13.0",
+    "typescript": ">=4"
+  },
+  "devDependencies": {
+    "@bazel/bazelisk": "^1.9.0",
+    "@bazel/jasmine": "^5.0.0",
+    "@bazel/typescript": "^5.0.0",
+    "@grpc/grpc-js": "^1.3.4",
+    "@types/google-protobuf": "^3.15.5",
+    "@types/jasmine": "^3.7.7",
+    "@types/node": "^15.12.5",
+    "google-protobuf": "^3.17.3",
+    "jasmine": "^3.7.0",
+    "jasmine-core": "^3.7.1",
+    "typescript": "^4.3.4"
+  }
+}
